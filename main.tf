@@ -40,7 +40,7 @@ resource "aws_network_interface" "web" {
 }
 
 resource "aws_instance" "web" {
-  ami           = "ami-00dc61b35bec09b72" # eu-central-1
+  ami           = "ami-0592c673f0b1e7665" # eu-central-1
   instance_type = "t2.nano"
   associate_public_ip_address = true
   tags = local.common_tags
