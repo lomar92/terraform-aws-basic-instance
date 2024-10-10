@@ -3,11 +3,11 @@ variable "prefix" {
 }
 
 variable "availability_zone" {
-  default = "us-west-2a"
+  default = "eu-central-1a"
 }
 
 variable "aws_region" {
-  default = "us-west-2"
+  default = "eu-central-1"
 }
 
 variable "instance_type" {
@@ -17,12 +17,12 @@ variable "instance_type" {
 
 variable "name" {
   description = "name to pass to name tag"
-  default = "Larry Eichenbaum"
+  default = "Amar Lojo"
 }
 
 variable "owner" {
   description = "name to pass to owner tag"
-  default = "larryebaum"
+  default = "lomar"
 }
 
 variable "ttl" {
